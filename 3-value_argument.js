@@ -1,7 +1,10 @@
-const firstArg = 10;
+const firstArg = 35;
  if (firstArg < 5) {
-    console.log('There is no argument')
+    console.log("No argument")
  }
- else {
-    console.log("there are Arguments")
+ else if (firstArg > 5 && firstArg < 25) {
+    console.log("HBTN")
+}
+else {
+    console.log("HBTN Cool")
 }
